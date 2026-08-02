@@ -1,12 +1,5 @@
 # 🚁 Obsidian Eye ROS 2
-
-<p align="center">
-  <img src="docs/images/architecture.png" width="900" alt="Obsidian Eye Architecture">
-</p>
-
-<p align="center">
-Autonomous Drone Surveillance System built with <b>ROS 2</b>, <b>PX4</b>, <b>Gazebo</b>, <b>MAVSDK</b>, and <b>YOLOv8</b> for intelligent multi-sensor target verification.
-</p>
+An autonomous drone surveillance system built with ROS 2, PX4, Gazebo, MAVSDK, and YOLO for intelligent multi-sensor target verification
 
 ---
 
@@ -35,9 +28,7 @@ The system combines RF sensing, acoustic detection, and computer vision to verif
 
 # 🏗️ System Architecture
 
-<p align="center">
-  <img src="docs/images/architecture.png" width="1000">
-</p>
+<img width="1242" height="884" alt="WhatsApp Image 2026-08-03 at 2 39 26 AM" src="https://github.com/user-attachments/assets/39f776bc-4cd0-420e-9d31-90b5ff13e040" />
 
 ---
 
@@ -45,9 +36,7 @@ The system combines RF sensing, acoustic detection, and computer vision to verif
 
 The following graph illustrates the communication between ROS 2 nodes, topics, actions, and mission management components.
 
-<p align="center">
-  <img src="docs/images/rqt_graph.png" width="950">
-</p>
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/a6fd4dbe-6a08-4125-809a-5c80e204d565" />
 
 ---
 
@@ -55,19 +44,17 @@ The following graph illustrates the communication between ROS 2 nodes, topics, a
 
 The complete surveillance system is validated in Gazebo using a PX4 SITL drone flying over an industrial oil pipeline environment.
 
-<p align="center">
-  <img src="docs/images/gazebo.png" width="950">
-</p>
+<img width="1600" height="900" alt="WhatsApp Image 2026-06-24 at 3 42 52 AM" src="https://github.com/user-attachments/assets/30273c7a-92b4-4bae-ab9f-022a2e4c858c" />
+
 
 ---
 
 # 🎯 YOLO Target Detection
 
 YOLOv8 is used to verify suspicious targets before autonomous tracking begins.
+<img width="1242" height="859" alt="yolo" src="https://github.com/user-attachments/assets/20fcc65f-407d-4545-a026-fad3df3ea286" />
 
-<p align="center">
-  <img src="docs/images/yolo_detection.png" width="900">
-</p>
+<img width="1218" height="881" alt="dashboard" src="https://github.com/user-attachments/assets/e28d2700-9ba9-48aa-8f36-754f73392b89" />
 
 ---
 
