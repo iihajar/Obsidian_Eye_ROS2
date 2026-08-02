@@ -13,8 +13,6 @@ The system combines RF sensing, acoustic analysis, and computer vision to reduce
 ---
 <img width="1242" height="884" alt="WhatsApp Image 2026-08-03 at 2 39 26 AM" src="https://github.com/user-attachments/assets/d12c4b90-bc0e-40f3-a1aa-9f869624654a" />
 
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/f33838d2-45a2-45c8-99e2-13b75e3948c7" />
-
 
 ## ✨ Features
 
@@ -26,6 +24,7 @@ The system combines RF sensing, acoustic analysis, and computer vision to reduce
 - Gazebo Simulation
 - ROS 2 Architecture
 - YOLO-based Object Detection
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/7aafd1ac-7285-40b7-a166-03a1f7dd00ac" />
 
 ---
 
