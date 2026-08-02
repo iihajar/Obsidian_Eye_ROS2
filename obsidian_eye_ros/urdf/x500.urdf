@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<robot name="x500">
+
+  <link name="world"/>
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh filename="file:///home/hajar/ros2_ws/src/obsidian_eye_ros/meshes/NXP-HGD-CF.dae"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </visual>
+  </link>
+
+  <joint name="world_to_base_link" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 1" rpy="0 0 0"/>
+  </joint>
+<link name="rf_sensor_link">
+    <visual>
+      <geometry>
+        <box size="0.15 0.08 0.05"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="rf_sensor_color">
+        <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="base_to_rf_sensor" type="fixed">
+    <parent link="base_link"/>
+    <child link="rf_sensor_link"/>
+    <origin xyz="0.3 0 0.15" rpy="0 0 0"/>
+  </joint>
+</robot>

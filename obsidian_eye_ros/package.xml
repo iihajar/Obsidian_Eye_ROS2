@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package format="3">
+
+  <name>obsidian_eye_ros</name>
+  <version>0.0.0</version>
+
+  <description>Obsidian Eye ROS 2 Package</description>
+
+  <maintainer email="example@email.com">
+    Hajer Qahtany
+  </maintainer>
+
+  <license>Apache-2.0</license>
+
+  <!-- Build -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- ROS2 -->
+  <depend>rclpy</depend>
+
+  <!-- Messages -->
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+
+  <!-- OpenCV -->
+  <depend>cv_bridge</depend>
+
+  <!-- Custom Interfaces -->
+  <depend>obsidian_eye_interfaces</depend>
+
+  <!-- Launch -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <!-- Testing -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+
+</package>
